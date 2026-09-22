@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+runs/
+evidence/
+adobe-import/
+.streamlit/secrets.toml
+*.log
+
+# Local credentials, development fixtures and archived snapshots
+.env
+.env.*
+!.env.example
+releases/
+live_test_controller.py
+test_consolidation_live.py
+prepare_adobe_import.py
